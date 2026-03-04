@@ -37,7 +37,7 @@ export default function Home() {
         <HeroGrid />
 
         {/* Divider */}
-        <div className="flex items-center justify-center py-16 md:py-20">
+        <div className="flex items-center justify-center pt-16 md:pt-20 pb-0">
           <div className="flex flex-col items-center gap-4">
             <span className="text-xs tracking-[0.4em] uppercase text-muted-foreground font-light">
               Portfolio
