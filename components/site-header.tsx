@@ -1,21 +1,38 @@
 "use client"
 
-import { useState } from "react"
-import { Menu, X, Instagram, Mail } from "lucide-react"
+import { useState, useRef, useEffect } from "react"
+import { Menu, X, Instagram, Mail, ChevronDown } from "lucide-react"
 import { ThemeToggle } from "./theme-toggle"
 import Link from "next/link"
 
+const workCategories = [
+  { label: "Travel & Hotel", href: "/portfolio/travel-hotel" },
+  { label: "Wedding", href: "/portfolio/wedding" },
+  { label: "Fashion & Product", href: "/portfolio/fashion-product" },
+  { label: "Real Estate", href: "/portfolio/real-estate" },
+]
+
 const navLinks = [
-  { label: "Travel & Hotel", href: "#travel-hotel" },
-  { label: "Wedding", href: "#wedding" },
-  { label: "Fashion & Product", href: "#fashion-product" },
-  { label: "Real Estate", href: "#real-estate" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
 ]
 
 export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [workOpen, setWorkOpen] = useState(false)
+  const dropdownRef = useRef<HTMLDivElement>(null)
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setWorkOpen(false)
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [])
 
   return (
     <>
@@ -82,6 +99,43 @@ export function SiteHeader() {
 
         <nav className="flex flex-col items-center justify-center h-[calc(100vh-88px)]">
           <ul className="flex flex-col items-center gap-8">
+            {/* Work with dropdown */}
+            <li className="flex flex-col items-center gap-4">
+              <div className="flex items-center gap-2">
+                <Link
+                  href="/portfolio"
+                  onClick={() => setMenuOpen(false)}
+                  className="text-2xl md:text-4xl tracking-[0.2em] uppercase font-light text-foreground hover:text-foreground/60 transition-colors"
+                >
+                  Work
+                </Link>
+                <button
+                  onClick={() => setWorkOpen((o) => !o)}
+                  className="text-foreground/60 hover:text-foreground transition-colors touch-manipulation"
+                  aria-label="Toggle work categories"
+                >
+                  <ChevronDown
+                    className={`h-5 w-5 transition-transform duration-300 ${workOpen ? "rotate-180" : ""}`}
+                  />
+                </button>
+              </div>
+              {workOpen && (
+                <ul className="flex flex-col items-center gap-4">
+                  {workCategories.map((cat) => (
+                    <li key={cat.href}>
+                      <Link
+                        href={cat.href}
+                        onClick={() => { setMenuOpen(false); setWorkOpen(false) }}
+                        className="text-base md:text-xl tracking-[0.2em] uppercase font-light text-muted-foreground hover:text-foreground transition-colors"
+                      >
+                        {cat.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a

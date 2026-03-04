@@ -4,91 +4,7 @@ import { PortfolioSection } from "@/components/portfolio-section"
 import { AboutSection } from "@/components/about-section"
 import { ContactSection } from "@/components/contact-section"
 import { SiteFooter } from "@/components/site-footer"
-
-const portfolioSections = [
-  {
-    id: "travel-hotel",
-    title: "Travel & Hotel",
-    subtitle: "Destination Photography",
-    images: [
-      {
-        src: "/images/portfolio-5.jpg",
-        alt: "Luxury resort aerial view with infinity pool",
-        span: "col" as const,
-      },
-      {
-        src: "/images/portfolio-7.jpg",
-        alt: "Modern luxury interior design",
-      },
-      {
-        src: "/images/portfolio-3.jpg",
-        alt: "Coastal lifestyle editorial",
-      },
-    ],
-  },
-  {
-    id: "wedding",
-    title: "Wedding",
-    subtitle: "Love Stories",
-    reverse: true,
-    images: [
-      {
-        src: "/images/portfolio-4.jpg",
-        alt: "Romantic couple in garden at golden hour",
-        span: "row" as const,
-      },
-      {
-        src: "/images/portfolio-9.jpg",
-        alt: "Bridal portrait in natural setting",
-      },
-      {
-        src: "/images/portfolio-2.jpg",
-        alt: "Elegant portrait with accessories",
-      },
-    ],
-  },
-  {
-    id: "fashion-product",
-    title: "Fashion & Product",
-    subtitle: "Editorial & Commercial",
-    images: [
-      {
-        src: "/images/portfolio-1.jpg",
-        alt: "Fashion editorial with dramatic lighting",
-      },
-      {
-        src: "/images/portfolio-8.jpg",
-        alt: "Street style fashion photography",
-      },
-      {
-        src: "/images/portfolio-6.jpg",
-        alt: "Luxury product photography",
-        span: "col" as const,
-      },
-    ],
-  },
-  {
-    id: "real-estate",
-    title: "Real Estate",
-    subtitle: "Architectural & Interior",
-    reverse: true,
-    images: [
-      {
-        src: "/images/portfolio-7.jpg",
-        alt: "Modern luxury interior photography",
-        span: "col" as const,
-      },
-      {
-        src: "/images/portfolio-5.jpg",
-        alt: "Resort architecture exterior",
-      },
-      {
-        src: "/images/portfolio-6.jpg",
-        alt: "Minimalist product styling",
-      },
-    ],
-  },
-]
+import { portfolioCategories } from "@/lib/portfolio-data"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -131,7 +47,7 @@ export default function Home() {
         </div>
 
         {/* Portfolio Categories */}
-        {portfolioSections.map((section) => (
+        {portfolioCategories.map((section) => (
           <PortfolioSection
             key={section.id}
             id={section.id}

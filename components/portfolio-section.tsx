@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 interface PortfolioSectionProps {
   id: string
@@ -40,9 +41,10 @@ export function PortfolioSection({
         {/* Image Grid */}
         <div className="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
           {images.map((image, index) => (
-            <div
+            <Link
               key={index}
-              className={`relative overflow-hidden group cursor-pointer ${
+              href={`/portfolio/${id}`}
+              className={`relative overflow-hidden group cursor-pointer block ${
                 image.span === "col"
                   ? "sm:col-span-2 aspect-[16/9]"
                   : image.span === "row"
@@ -60,7 +62,7 @@ export function PortfolioSection({
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 50vw"
               />
               <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/10 transition-colors duration-500" />
-            </div>
+            </Link>
           ))}
         </div>
       </div>
