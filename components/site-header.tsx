@@ -116,7 +116,7 @@ export function SiteHeader() {
                   aria-label="Toggle work categories"
                 >
                   <ChevronDown
-                    className={`h-5 w-5 transition-transform duration-300 ${workOpen ? "rotate-180" : ""}`}
+                    className={`h-5 w-5 transition-transform duration-300 cursor-pointer ${workOpen ? "rotate-180" : ""}`}
                   />
                 </button>
               </div>
