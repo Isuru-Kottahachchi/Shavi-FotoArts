@@ -11,7 +11,7 @@ export function AboutSection() {
         <div className="md:w-2/5 w-full">
           <div className="relative aspect-[3/4] overflow-hidden">
             <Image
-              src="/images/portfolio-9.jpg"
+              src="/images/portfolio-10.png"
               alt="Shavi FotoArts - Professional photographer portrait"
               fill
               className="object-cover"

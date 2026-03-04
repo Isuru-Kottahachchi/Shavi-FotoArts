@@ -27,7 +27,7 @@ export function PortfolioSection({
         } items-start gap-10 md:gap-16`}
       >
         {/* Title Block */}
-        <div className="md:w-1/3 flex flex-col gap-4 md:sticky md:top-32">
+        <div className="w-full md:w-1/3 flex flex-col gap-4 md:sticky md:top-32">
           <span className="text-xs tracking-[0.3em] uppercase text-muted-foreground font-light">
             {subtitle}
           </span>
@@ -38,18 +38,18 @@ export function PortfolioSection({
         </div>
 
         {/* Image Grid */}
-        <div className="md:w-2/3 grid grid-cols-2 gap-2 md:gap-3">
+        <div className="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
           {images.map((image, index) => (
             <div
               key={index}
               className={`relative overflow-hidden group cursor-pointer ${
                 image.span === "col"
-                  ? "col-span-2 aspect-[16/9]"
+                  ? "sm:col-span-2 aspect-[16/9]"
                   : image.span === "row"
-                    ? "row-span-2 aspect-[3/5]"
+                    ? "sm:row-span-2 aspect-[4/3] sm:aspect-[3/5]"
                     : image.span === "both"
-                      ? "col-span-2 row-span-2 aspect-square"
-                      : "aspect-[4/5]"
+                      ? "sm:col-span-2 sm:row-span-2 aspect-square"
+                      : "aspect-[4/3] sm:aspect-[4/5]"
               }`}
             >
               <Image

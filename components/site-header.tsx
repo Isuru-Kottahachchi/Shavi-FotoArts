@@ -77,6 +77,7 @@ export function SiteHeader() {
           >
             <X className="h-7 w-7" strokeWidth={1.5} />
           </button>
+          <ThemeToggle />
         </div>
 
         <nav className="flex flex-col items-center justify-center h-[calc(100vh-88px)]">
