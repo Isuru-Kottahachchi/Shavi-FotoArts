@@ -60,7 +60,7 @@ export function SiteHeader() {
           <div className="flex items-center gap-1 relative z-10">
             <ThemeToggle />
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/shavi.fotoarts?igsh=MWhpcWhzcHFkYTJwMA=="
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-foreground/60 hover:text-foreground transition-colors cursor-pointer"

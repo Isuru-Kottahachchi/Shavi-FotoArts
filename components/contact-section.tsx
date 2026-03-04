@@ -32,7 +32,7 @@ export function ContactSection() {
             </span>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/shavi.fotoarts?igsh=MWhpcWhzcHFkYTJwMA=="
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 text-secondary-foreground hover:text-secondary-foreground/70 transition-colors group"

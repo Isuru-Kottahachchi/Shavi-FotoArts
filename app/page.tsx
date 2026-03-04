@@ -21,7 +21,7 @@ const jsonLd = {
   },
   areaServed: ["Sri Lanka"],
   priceRange: "$$$$",
-  sameAs: ["https://instagram.com/shavifotoarts"],
+  sameAs: ["https://www.instagram.com/shavi.fotoarts?igsh=MWhpcWhzcHFkYTJwMA=="],
 }
 
 export default function Home() {
