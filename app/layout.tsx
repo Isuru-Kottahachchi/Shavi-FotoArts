@@ -19,13 +19,13 @@ const _cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: 'Shavi FotoArts | International Photographer & Visual Storyteller',
   description:
-    'Professional photography services by Shavi FotoArts. Specializing in wedding, fashion, travel & hotel, and real estate photography. Available in Sri Lanka.',
+    'Professional photography services by Shavi FotoArts. Specializing in wedding, fashion, travel & hotel, and nature photography. Available in Sri Lanka.',
   keywords: [
     'photographer',
     'wedding photography',
     'fashion photography',
     'travel photography',
-    'real estate photography',
+    'nature photography',
     'Sri Lanka photographer',
     'Shavi FotoArts',
     'professional photographer',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: 'Shavi FotoArts',
     title: 'Shavi FotoArts | International Photographer & Visual Storyteller',
     description:
-      'Professional photography services specializing in wedding, fashion, travel, and real estate photography. Available in Sri Lanka.',
+      'Professional photography services specializing in wedding, fashion, travel, and nature photography. Available in Sri Lanka.',
     images: [
       {
         url: '/images/portfolio-2.jpg',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Shavi FotoArts | International Photographer',
     description:
-      'Professional photography services specializing in wedding, fashion, travel, and real estate photography. Available in Sri Lanka.',
+      'Professional photography services specializing in wedding, fashion, travel, and nature photography. Available in Sri Lanka.',
     images: ['/images/portfolio-2.jpg'],
   },
   robots: {

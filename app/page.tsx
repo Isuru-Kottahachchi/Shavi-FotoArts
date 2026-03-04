@@ -11,7 +11,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Shavi FotoArts",
   description:
-    "Professional photography services specializing in wedding, fashion, travel & hotel, and real estate photography.",
+    "Professional photography services specializing in wedding, fashion, travel & hotel, and nature photography.",
   url: "https://shavifotoarts.com",
   image: "/images/portfolio-2.jpg",
   address: {

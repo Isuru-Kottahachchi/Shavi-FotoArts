@@ -86,12 +86,12 @@ export const portfolioCategories: PortfolioCategory[] = [
     ],
   },
   {
-    id: "real-estate",
-    title: "Real Estate",
-    subtitle: "Architectural & Interior",
+    id: "nature",
+    title: "Nature",
+    subtitle: "Natural & Scenic",
     cover: "/images/portfolio-7.jpg",
     description:
-      "Architectural and interior imagery that sells spaces — showcasing design, light, and atmosphere to attract the right audience.",
+      "Capturing the beauty of the natural world — from sweeping landscapes to intimate wildlife moments that tell a story of place and environment.",
     reverse: true,
     images: [
       {

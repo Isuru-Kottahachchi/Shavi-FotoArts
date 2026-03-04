@@ -9,7 +9,7 @@ const workCategories = [
   { label: "Travel & Hotel", href: "/portfolio/travel-hotel" },
   { label: "Wedding", href: "/portfolio/wedding" },
   { label: "Fashion & Product", href: "/portfolio/fashion-product" },
-  { label: "Real Estate", href: "/portfolio/real-estate" },
+  { label: "Nature", href: "/portfolio/nature" },
 ]
 
 const navLinks = [

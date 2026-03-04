@@ -7,7 +7,7 @@ import { portfolioCategories } from "@/lib/portfolio-data"
 export const metadata = {
   title: "Portfolio | Shavi FotoArts",
   description:
-    "Browse the full portfolio of Shavi FotoArts — wedding, fashion, travel & hotel, and real estate photography.",
+    "Browse the full portfolio of Shavi FotoArts — wedding, fashion, travel & hotel, and nature photography.",
 }
 
 export default function PortfolioPage() {

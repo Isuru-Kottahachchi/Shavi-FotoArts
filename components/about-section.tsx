@@ -32,7 +32,7 @@ export function AboutSection() {
           <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
             An international photographer and visual storyteller based in Sri Lanka. With over a decade of experience capturing
             life&apos;s most profound moments, Shavi FotoArts specializes in
-            wedding, fashion, travel, and real estate photography.
+            wedding, fashion, travel, and nature photography.
           </p>
           <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
             Every frame tells a story. From the intimate emotions of a
