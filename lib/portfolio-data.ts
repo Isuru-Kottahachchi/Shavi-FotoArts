@@ -66,12 +66,12 @@ export const portfolioCategories: PortfolioCategory[] = [
     id: "fashion-product",
     title: "Fashion & Product",
     subtitle: "Editorial & Commercial",
-    cover: "/images/portfolio-1.jpg",
+    cover: "/images/portfolio-11.jpg",
     description:
       "High-concept fashion editorials and clean commercial product imagery that elevates brands and communicates vision with precision.",
     images: [
       {
-        src: "/images/portfolio-1.jpg",
+        src: "/images/portfolio-11.jpg",
         alt: "Fashion editorial with dramatic lighting",
       },
       {
@@ -89,13 +89,13 @@ export const portfolioCategories: PortfolioCategory[] = [
     id: "nature",
     title: "Nature",
     subtitle: "Natural & Scenic",
-    cover: "/images/portfolio-7.jpg",
+    cover: "/images/portfolio-1.jpg",
     description:
       "Capturing the beauty of the natural world — from sweeping landscapes to intimate wildlife moments that tell a story of place and environment.",
     reverse: true,
     images: [
       {
-        src: "/images/portfolio-7.jpg",
+        src: "/images/portfolio-1.jpg",
         alt: "Modern luxury interior photography",
         span: "col",
       },
