@@ -1,6 +1,6 @@
 "use client"
 
-import { Instagram, Mail, MapPin } from "lucide-react"
+import { Facebook, Instagram, Mail, MapPin } from "lucide-react"
 
 export function ContactSection() {
   return (
@@ -38,6 +38,17 @@ export function ContactSection() {
             className="flex items-center gap-3 text-secondary-foreground hover:text-secondary-foreground/70 transition-colors group"
           >
             <Instagram className="h-5 w-5" strokeWidth={1.5} />
+            <span className="text-sm tracking-widest uppercase font-light">
+              @shavifotoarts
+            </span>
+          </a>
+           <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 text-secondary-foreground hover:text-secondary-foreground/70 transition-colors group"
+          >
+            <Facebook className="h-5 w-5" strokeWidth={1.5} />
             <span className="text-sm tracking-widest uppercase font-light">
               @shavifotoarts
             </span>

@@ -48,7 +48,8 @@ export function SiteHeader() {
           </button>
 
           {/* Logo */}
-          <Link href="/" className="absolute left-1/2 -translate-x-1/2">
+          <Link href="/" className="absolute left-1/2 -translate-x-1/2 z-0">
+
             <h1 className="text-2xl md:text-3xl tracking-[0.3em] uppercase font-sans">
               <span className="font-bold">Shavi</span>
               <span className="font-light"> FotoArts</span>
@@ -56,7 +57,7 @@ export function SiteHeader() {
           </Link>
 
           {/* Right Icons */}
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 relative z-10">
             <ThemeToggle />
             <a
               href="https://instagram.com"

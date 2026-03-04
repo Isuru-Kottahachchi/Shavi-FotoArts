@@ -1,4 +1,4 @@
-import { Instagram, Mail } from "lucide-react"
+import { Facebook, Instagram, Mail } from "lucide-react"
 
 export function SiteFooter() {
   return (
@@ -17,6 +17,15 @@ export function SiteFooter() {
             aria-label="Instagram"
           >
             <Instagram className="h-4 w-4" strokeWidth={1.5} />
+          </a>
+           <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+            aria-label="Facebook"
+          >
+            <Facebook className="h-4 w-4" strokeWidth={1.5} />
           </a>
           <a
             href="mailto:hello@shavifotoarts.com"
