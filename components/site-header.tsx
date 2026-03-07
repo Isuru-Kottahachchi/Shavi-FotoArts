@@ -1,15 +1,15 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Menu, X, Instagram, Mail, ChevronDown } from "lucide-react"
+import { Menu, X, Instagram, ChevronDown } from "lucide-react"
 import { ThemeToggle } from "./theme-toggle"
 import Link from "next/link"
 
 const workCategories = [
-  { label: "Travel & Hotel", href: "/portfolio/travel-hotel" },
-  { label: "Wedding", href: "/portfolio/wedding" },
-  { label: "Fashion & Product", href: "/portfolio/fashion-product" },
-  { label: "Nature", href: "/portfolio/nature" },
+  { label: "Fashion", href: "/portfolio/fashion" },
+  { label: "Love Stories", href: "/portfolio/love-stories" },
+  { label: "Nature | Arts", href: "/portfolio/fashion-product" },
+  { label: "Commercials", href: "/portfolio/commercials" },
 ]
 
 const navLinks = [
@@ -68,13 +68,13 @@ export function SiteHeader() {
             >
               <Instagram className="h-5 w-5" strokeWidth={1.5} />
             </a>
-            <a
+            {/* <a
               href="mailto:hello@shavifotoarts.com"
               className="p-2 text-foreground/60 hover:text-foreground transition-colors cursor-pointer"
               aria-label="Email"
             >
               <Mail className="h-5 w-5" strokeWidth={1.5} />
-            </a>
+            </a> */}
           </div>
         </div>
       </header>
