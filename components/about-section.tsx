@@ -30,19 +30,19 @@ export function AboutSection() {
           </h2>
           <div className="w-12 h-px bg-foreground/30" />
           <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
-            An international photographer and visual storyteller based in Sri Lanka. With over a decade of experience capturing
-            life&apos;s most profound moments, Shavi FotoArts specializes in
-            wedding, fashion, travel, and nature photography.
+           I’m Shavinda Ekanayaka, a Sri Lankan photographer specializing in cinematic portrait, travel, and nature photography.
           </p>
           <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
-            Every frame tells a story. From the intimate emotions of a
-            wedding day to the grandeur of architectural spaces, the lens
-            captures authentic beauty with a cinematic, editorial touch.
-            Working with clients worldwide, each project is approached with
-            a unique creative vision.
+            My journey into photography began during the COVID period, a time that brought uncertainty and personal struggle. While studying Business Management, I realized it wasn’t the path I truly wanted to follow. During that phase, I went through a low point in life that pushed me to rethink everything and search for something more meaningful and creative.
           </p>
           <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
-            Available for bookings in Sri Lanka.
+            I trained under Mahesh Ganganath, one of Sri Lanka’s well-known fine art and wedding photographers, where I built my foundation in professional photography before starting my career in wedding photography in 2021. Since then, I’ve worked with studios and freelance projects across Sri Lanka, gaining experience in both outdoor and indoor photography styles, as well as working under tight time schedules during real wedding assignments.
+          </p>
+           <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
+            Today, I work with international travelers, couples, and creators visiting Sri Lanka, capturing natural and emotional moments in coastal landscapes, jungles, and golden-hour light. My style is cinematic, minimal, and focused on real connection between people and place.
+          </p>
+            <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
+            My goal is simple — to turn real moments into timeless visual stories.
           </p>
         </div>
       </div>
