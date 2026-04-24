@@ -17,7 +17,7 @@ export default function PortfolioPage() {
 
       <main className="px-6 md:px-10 lg:px-16 py-16 md:py-24">
         {/* Page Title */}
-        <div className="flex flex-col items-center gap-4 mb-16 md:mb-24 text-center">
+        <div className="flex flex-col items-center gap-4 mb-16 md:mb-12 text-center">
           <span className="text-xs tracking-[0.4em] uppercase text-muted-foreground font-light">
             Work
           </span>

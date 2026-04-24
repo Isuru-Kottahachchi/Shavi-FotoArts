@@ -19,7 +19,7 @@ export const portfolioCategories: PortfolioCategory[] = [
     id: "fashion",
     title: "Fashion",
     subtitle: "Fashion & Product",
-    cover: "/images/portfolio-5.jpg",
+    cover: "/images/portfolio-11.jpg",
     description:
       "Capturing the soul of destinations — from sweeping resort landscapes to intimate hotel interiors that tell a story of place and experience.",
     images: [
@@ -42,7 +42,7 @@ export const portfolioCategories: PortfolioCategory[] = [
     id: "love-stories",
     title: "Love Stories",
     subtitle: "Love Stories & Weddings",
-    cover: "/images/portfolio-4.jpg",
+    cover: "/images/portfolio-12.jpg",
     description:
       "Every love story is unique. We document your day with a timeless, editorial approach — candid moments woven with carefully crafted portraits.",
     reverse: true,
@@ -66,7 +66,7 @@ export const portfolioCategories: PortfolioCategory[] = [
     id: "fashion-product",
     title: "Nature | Arts",
     subtitle: "Nature & Arts",
-    cover: "/images/portfolio-11.jpg",
+    cover: "/images/portfolio-1.jpg",
     description:
       "High-concept fashion editorials and clean commercial product imagery that elevates brands and communicates vision with precision.",
     images: [
@@ -89,7 +89,7 @@ export const portfolioCategories: PortfolioCategory[] = [
     id: "commercials",
     title: "Commercials",
     subtitle: "Commercials & Architecture",
-    cover: "/images/portfolio-1.jpg",
+    cover: "/images/portfolio-13.jpeg",
     description:
       "Capturing the beauty of the natural world — from sweeping landscapes to intimate wildlife moments that tell a story of place and environment.",
     reverse: true,
