@@ -86,6 +86,10 @@ export const portfolioCategories: PortfolioCategory[] = [
     description:
       "High-concept fashion editorials and clean commercial product imagery that elevates brands and communicates vision with precision.",
     images: [
+       {
+        src: "/images/portfolio-1.jpg",
+        alt: "Fashion editorial with dramatic lighting",
+      },
       {
         src: "/images/Nature-fine-arts.jpg",
         alt: "Fashion editorial with dramatic lighting",

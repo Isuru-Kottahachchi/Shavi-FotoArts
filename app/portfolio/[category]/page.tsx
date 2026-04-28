@@ -37,7 +37,7 @@ export default async function CategoryPage({ params }: Props) {
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
 
-      <main className="px-6 md:px-10 lg:px-16 py-8 md:py-12">
+      <main className="px-6 md:px-10 lg:px-16 py-8 md:py-8">
         {/* Back link */}
         <Link
           href="/portfolio"
