@@ -37,17 +37,17 @@ export default function Home() {
         <HeroGrid />
 
         {/* Divider */}
-        <div className="flex items-center justify-center pt-16 md:pt-20 pb-0">
+        {/* <div className="flex items-center justify-center pt-16 md:pt-20 pb-0">
           <div className="flex flex-col items-center gap-4">
             <span className="text-xs tracking-[0.4em] uppercase text-muted-foreground font-light">
               Portfolio
             </span>
             <div className="w-px h-12 bg-border" />
           </div>
-        </div>
+        </div> */}
 
         {/* Portfolio Categories */}
-        {portfolioCategories.map((section) => (
+        {/* {portfolioCategories.map((section) => (
           <PortfolioSection
             key={section.id}
             id={section.id}
@@ -56,7 +56,7 @@ export default function Home() {
             images={section.images}
             reverse={section.reverse}
           />
-        ))}
+        ))} */}
 
         {/* About */}
         <div className="border-t border-border/40">
