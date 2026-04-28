@@ -24,16 +24,32 @@ export const portfolioCategories: PortfolioCategory[] = [
       "Capturing the soul of destinations — from sweeping resort landscapes to intimate hotel interiors that tell a story of place and experience.",
     images: [
       {
-        src: "/images/portfolio-5.jpg",
+        src: "/images/Fashion-portrait.jpg",
         alt: "Luxury resort aerial view with infinity pool",
         span: "col",
       },
       {
-        src: "/images/portfolio-7.jpg",
+        src: "/images/Fashion-portrait-1.jpg",
         alt: "Modern luxury interior design",
       },
       {
-        src: "/images/portfolio-3.jpg",
+        src: "/images/Fashion-portrait-2.jpg",
+        alt: "Coastal lifestyle editorial",
+      },
+      {
+        src: "/images/Fashion-portrait-3.jpg",
+        alt: "Coastal lifestyle editorial",
+      },
+      {
+        src: "/images/Fashion-portrait-4.jpg",
+        alt: "Coastal lifestyle editorial",
+      },
+      {
+        src: "/images/Fashion-portrait-5.jpg",
+        alt: "Coastal lifestyle editorial",
+      },
+      {
+        src: "/images/Fashion-portrait-6.jpg",
         alt: "Coastal lifestyle editorial",
       },
     ],
@@ -71,15 +87,29 @@ export const portfolioCategories: PortfolioCategory[] = [
       "High-concept fashion editorials and clean commercial product imagery that elevates brands and communicates vision with precision.",
     images: [
       {
-        src: "/images/portfolio-11.jpg",
+        src: "/images/Nature-fine-arts.jpg",
         alt: "Fashion editorial with dramatic lighting",
       },
       {
-        src: "/images/portfolio-8.jpg",
+        src: "/images/Nature-fine-arts-1.jpg",
+        alt: "Fashion editorial with dramatic lighting",
+      },
+      {
+        src: "/images/Nature-fine-arts-2.jpeg",
         alt: "Street style fashion photography",
       },
       {
-        src: "/images/portfolio-6.jpg",
+        src: "/images/Nature-fine-arts-3.jpeg",
+        alt: "Luxury product photography",
+        span: "col",
+      },
+       {
+        src: "/images/Nature-fine-arts-4.jpeg",
+        alt: "Luxury product photography",
+        span: "col",
+      },
+       {
+        src: "/images/Nature-fine-arts-5.jpg",
         alt: "Luxury product photography",
         span: "col",
       },
@@ -95,16 +125,24 @@ export const portfolioCategories: PortfolioCategory[] = [
     reverse: true,
     images: [
       {
-        src: "/images/portfolio-1.jpg",
+        src: "/images/Commercials.jpg",
         alt: "Modern luxury interior photography",
         span: "col",
       },
       {
-        src: "/images/portfolio-5.jpg",
+        src: "/images/Commercials-1.jpg",
         alt: "Resort architecture exterior",
       },
       {
-        src: "/images/portfolio-6.jpg",
+        src: "/images/Commercials-2.jpeg",
+        alt: "Minimalist product styling",
+      },
+      {
+        src: "/images/Commercials-3.jpeg",
+        alt: "Minimalist product styling",
+      },
+       {
+        src: "/images/Commercials-5.jpeg",
         alt: "Minimalist product styling",
       },
     ],
